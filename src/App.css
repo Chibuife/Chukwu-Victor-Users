@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --textColor: rgb(76, 75, 75);
+  --buttonColor: rgba(92, 97, 247, 0.9);
+  --buttonHoverColor: rgb(66, 72, 235);
+}
+
+.signin{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+h1{
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: var(--textColor);
+}
+.googleButton{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h5{
+  text-align: left;
+  margin-left: 39px;
+  font-weight: 400;
+}
+.or{
+  padding: 20px;
+}
+input{
+  width: 80%;
+  height: 30px;
+  border: none;
+  background-color: rgba(211, 211, 211, 0.402);
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size:clamp(1rem , 1vw, 1.5rem);
+  margin-bottom: 20px;
+  outline: none;
+  color: var(--textColor);
+}
+
+.signin button{
+  width: 50%;
+  margin-top: 20px;
+  border: none;
+  height: 30px;
+  width: 80%;
+  height: 35px;
+  background-color: var(--buttonColor);
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: all 2s;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+}
+.small{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(137, 137, 137);
+}
+
+
+button:hover{
+  background-color: var(--buttonHoverColor);
+}
+.firebaseImg{
+  height: 100px;
+}
+
+.authImg{
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+.good{
+  margin-right: auto;
+  margin-left: auto;
+  width: 400px;
+
+}
+.good img{
+  height: 300px;
+  border-radius: 220px;
+}
+.successfulBody{
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.s-header{
+  color: var(--textColor);
+  font-size: 3rem;
+}
+
+.s-description{
+  color: var(--textColor);
+}
